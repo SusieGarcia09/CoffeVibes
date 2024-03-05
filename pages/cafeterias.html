@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cafeterias</title>
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <script src="js/bootstrap.js"></script>
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <script src="/js/bootstrap.js"></script>
 </head>
 <body>
     
@@ -21,16 +21,19 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Inicio</a>
+                <a class="nav-link" href="/index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="pages/historia.html">Historia</a>
+                <a class="nav-link" href="historia.html">Historia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="pages/variedades.html">Variedades</a>
+                <a class="nav-link" href="variedades.html">Variedades</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="pages/cafeterias.html">Cafeterias</a>
+                <a class="nav-link active" href="cafeterias.html">Cafeterías</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="preguntasf.html">Preguntas frecuentes</a>
               </li>
             </ul>
           </div>
@@ -39,5 +42,79 @@
     <!--End Navbar-->
 
     <h1>Cafeterías por visitar en Villahermosa</h1>
+
+    <!--Cards-->
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="col">
+        <div class="card bg-light text-white text-center">
+          <img src="/src/img/cafeterías/pruebarandom.jpeg" class="card-img-top" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Card title</h5>
+            <div class="card-body">
+              <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Light</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-light text-white text-center">
+          <img src="/src/img/cafeterías/pruebarandom.jpeg" class="card-img-top" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Card title</h5>
+            <div class="card-body">
+              <button type="button" class="btn btn-outline-light">Light</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-light text-white text-center">
+          <img src="/src/img/cafeterías/pruebarandom.jpeg" class="card-img-top" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Card title</h5>
+            <div class="card-body">
+              <button type="button" class="btn btn-outline-light">Light</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-light text-white text-center">
+          <img src="/src/img/cafeterías/pruebarandom.jpeg" class="card-img-top" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Card title</h5>
+            <div class="card-body">
+              <button type="button" class="btn btn-outline-light">Light</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End cards-->
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Descripción Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+              in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+              non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Visitar sitio web</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modal -->
+
+    
 </body>
 </html>
