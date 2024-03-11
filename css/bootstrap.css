@@ -10835,3 +10835,148 @@ textarea.form-control-lg {
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
+
+
+/*--------------------------------------------------------------
+# Cafeterías
+--------------------------------------------------------------*/
+.coffeeshops {
+  background: none;
+  padding: 30px 0;
+}
+
+.coffeeshops .coffshop {
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.coffeeshops .coffshop .coffees-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.coffeeshops .coffshop .coffees-img:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background: url(../img/team-shape.svg) no-repeat center bottom;
+  background-size: contain;
+  z-index: 1;
+}
+
+.coffeeshops .coffshop .coffinfo {
+  position: relative;
+  bottom: -100%;
+  top: 150px;
+  opacity: 0;
+  border-radius: 4px;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+.coffeeshops .coffshop .coffinfo a {
+  transition: color 0.3s;
+  margin: 15px 12px;
+  display: block;
+  line-height: 0;
+  text-align: center;
+}
+
+.coffeeshops .coffshop:hover {
+  transform: scale(1.08);
+}
+
+.coffeeshops .coffshop:hover .coffinfo {
+  bottom: 8px;
+  opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# Variedades
+--------------------------------------------------------------*/
+.variety {
+  background: none;
+  padding: 30px 0;
+}
+
+
+/*--------------------------------------------------------------
+# Estados cafeteros
+--------------------------------------------------------------*/
+
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.skills .progress .skill {
+  padding: 10px 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #384046;
+}
+
+.skills .progress-bar-wrap {
+  background: #e8eaec;
+}
+
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #5faee3;
+}
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services {
+  padding: 40px;
+}
+.services .icon-box {
+  padding: 30px;
+  border-radius: 6px;
+  background: #fff;
+  transition: ease-in-out 0.3s;
+}
+
+.services .icon-box i {
+  float: left;
+  color: #3498db;
+  font-size: 40px;
+  line-height: 0;
+}
+
+.services .icon-box h4 {
+  margin-left: 70px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.services .icon-box h4 a {
+  color: #384046;
+  transition: 0.3s;
+}
+
+.services .icon-box p {
+  margin-left: 70px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.services .icon-box:hover {
+  box-shadow: 0px 2px 22px rgba(0, 0, 0, 0.08);
+}
+
+.services .icon-box:hover h4 a {
+  color: #3498db;
+}
