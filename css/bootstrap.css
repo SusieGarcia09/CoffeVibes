@@ -10901,7 +10901,7 @@ textarea.form-control-lg {
 .coffeeshops .coffshop .coffinfo {
   position: relative;
   bottom: -100%;
-  top: 130px;
+  top: 100px;
   opacity: 0;
   border-radius: 4px;
   transition: 0.5s;
