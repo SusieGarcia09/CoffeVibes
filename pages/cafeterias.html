@@ -10,10 +10,10 @@
 <body>
     
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
             <a class="navbar-brand" href="#">
-              <img src="docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24">
+              <img src="../src/img/logo.png" alt="" width="100" height="60">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -54,12 +54,12 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="coffshop">
               <div class="coffees-img card bg-light text-white text-center">
-                <img src="../src/img/cafeterías/Captura de pantalla 2024-03-09 003245.jpg" class="card-img-top" alt="...">
+                <img src="../src/img/cafeterías/strabucks.jpeg" class="card-img-top" alt="...">
                 <div class="card-img-overlay">
                   <h5 class="card-title">Starbucks</h5>
                   <div class="card-body">
                     <div class="coffinfo">
-                      <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Ver más</button>
+                      <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#starbucks">Ver más</button>
                     </div>
                   </div>
                 </div>
@@ -75,7 +75,7 @@
                   <h5 class="card-title">Café La Cabaña</h5>
                   <div class="card-body">
                     <div class="coffinfo">
-                      <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Ver más</button>
+                      <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#cabana">Ver más</button>
                     </div>
                   </div>
                 </div>
@@ -83,7 +83,6 @@
             </div>
           </div>
 
-          <!--prueba-->
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
             <div class="coffshop">
               <div class="coffees-img card bg-light text-white text-center">
@@ -92,7 +91,7 @@
                   <h5 class="card-title">Cocoa Mía</h5>
                   <div class="card-body">
                     <div class="coffinfo">
-                      <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Ver más</button>
+                      <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#cocoamia">Ver más</button>
                     </div>
                   </div>
                 </div>
@@ -103,7 +102,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
             <div class="coffshop">
               <div class="coffees-img card bg-light text-white text-center">
-                <img src="../src/img/cafeterías/Captura de pantalla 2024-03-09 003245.jpg" class="card-img-top" alt="...">
+                <img src="../src/img/cafeterías/lungo.jpg" class="card-img-top" alt="...">
                 <div class="card-img-overlay">
                   <h5 class="card-title">Lungo</h5>
                   <div class="card-body">
@@ -121,22 +120,24 @@
     <!--End cards-->
 
     <!-- Modal Starbucks-->
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal fade" id="starbucks" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="staticBackdropLabel">Starbucks</h5>
+            <h5 class="modal-title" id="starbucks">Starbucks</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <p>Descripción Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-              in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-              non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Desde el principio, Starbucks se propuso ser una empresa diferente. Una empresa donde no solo se honrase al café y a su rica tradición, sino donde, también, se crease una sensación de conexión.
+
+              Nuestra misión: inspirar y nutrir el espíritu humano. Una persona, una taza de café y una comunidad a la vez.
+              
+              En la actualidad, con más de 15 000 tiendas en 50 países, Starbucks es el principal tostador y minorista de especialidades de café del mundo. Y con cada taza intentamos hacer realidad tanto nuestra herencia como una experiencia excepcional.</p>
           </div>
           <div class="modal-footer mx-auto">
-            <button type="button" class="btn btn-primary">Visitar sitio web</button>
+            <a href="https://www.starbucks.com.mx/">
+              <button type="button" class="btn btn-primary">Visitar sitio web</button>
+            </a>
           </div>
         </div>
       </div>
@@ -144,22 +145,24 @@
     <!-- End Modal -->
 
     <!-- Modal Café la Cabaña-->
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal fade" id="cabana" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="staticBackdropLabel">Café la Cabaña</h5>
+            <h5 class="modal-title" id="cabana">Café la Cabaña</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <p>Descripción Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-              in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-              non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>En 1991 nace en la Ciudad de Villahermosa, Tabasco Café La Cabaña; su fundador el Sr. Jorge González 
+              Gutiérrez de Velasco, inició el negocio con un pequeño módulo de aproximadamente 2 m² en forma de cabaña. 
+              La gran visión de su fundador y el esfuerzo de su equipo de trabajo han logrado convertir a Café la Cabaña 
+              en una empresa pionera y líder en el concepto de Barras de Café, siendo la única empresa 100% Tabasqueña que
+              ha perdurado logrando mantener la tradición de consumir el buen café.</p>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary">Visitar sitio web</button>
+          <div class="modal-footer mx-auto">
+            <a href="https://cafelacabana.com/">
+              <button type="button" class="btn btn-primary">Visitar sitio web</button>
+            </a>
           </div>
         </div>
       </div>
@@ -167,7 +170,7 @@
     <!-- End Modal -->
 
     <!-- Modal Cocoa Mía-->
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal fade" id="cocoamia" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
@@ -175,37 +178,44 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <p>Descripción Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-              in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-              non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Cocoa Mía es un encantador restaurante ubicado en Paseo Tabasco 1004 A, Colonia Jesús García, en Villahermosa, México. 
+              Este establecimiento ofrece una combinación única de café y comida mexicana, brindando a los comensales una experiencia 
+              culinaria memorable.
+              Una de las principales características de Cocoa Mía es su acogedora decoración interior, que crea un ambiente cálido y 
+              hogareño. Los clientes han elogiado el excelente diseño del lugar, lo que contribuye a una experiencia gastronómica aún 
+              más placentera.</p>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary">Visitar sitio web</button>
+          <div class="modal-footer mx-auto">
+            <a href="https://www.facebook.com/cocoamiamx">
+              <button type="button" class="btn btn-primary">Visitar sitio web</button>
+            </a>
           </div>
         </div>
       </div>
     </div>
     <!-- End Modal -->
 
-    <!-- Modal Café México-->
+    <!-- Modal Lungo-->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="staticBackdropLabel">Café México</h5>
+            <h5 class="modal-title" id="staticBackdropLabel">Lungo</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <p>Descripción Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-              in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-              non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>«Una taza de café está llena de ideas», dice Alberto Zurita de Lungo Business & Coffee, el primer 
+              café para cerrar tratos en Villahermosa, Tabasco. Ya sé que hay otras cafeterías donde se cierran 
+              tratos pero Lungo es la primera en decirlo. Entonces, los primeros.
+              Lungo Business & Coffee está diseñado con la misión de inspirarte, el ambiente creado te ayuda a sacar 
+              la idea que andas buscando; si vas con amigos, pasarla bien es lo mínimo y si lo que necesitas es trabajar, 
+              siempre tendrás un mesa limpia, internet, bebidas y alimentos de calidad. 
+            </p>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary">Visitar sitio web</button>
+          <div class="modal-footer mx-auto">
+            <a href="https://www.instagram.com/lungo.mx?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+              <button type="button" class="btn btn-primary">Visitar sitio web</button>
+            </a>
           </div>
         </div>
       </div>

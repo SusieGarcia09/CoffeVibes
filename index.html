@@ -10,10 +10,10 @@
 <body>
 
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
             <a class="navbar-brand" href="#">
-              <img src="docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24">
+              <img src="src/img/logo.png" alt="" width="100" height="60">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -44,39 +44,38 @@
     </nav>
     <!--End Navbar-->
 
-    <!--Hero Section-->
-    <section id="hero" class="d-flex align-items-center">
+    <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center section-bg">
+    <div class="container">
+      <div class="row justify-content-between gy-5">
+        <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+          <h2 data-aos="fade-up">Conoce más de la cultura del café</h2>
+          <p data-aos="fade-up" data-aos-delay="100">Al mencionar la palabra café, lo primero que nos viene a la cabeza es una taza 
+            con un líquido oscuro en su interior y un aroma más que embaucador, mira algunos de sus beneficios a la salud.</p>
 
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-            <h1>Conoce más de la cultura del café</h1>
-            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. </h4>
-
-            <!--Collapse-->
-            <p>
-              <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Leer más</a>
-            </p>
-            <div class="row">
-              <div class="col">
-                <div class="collapse multi-collapse" id="multiCollapseExample1">
-                  <div class="card card-body">
-                    Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                  </div>
+          <!--Collapse-->
+          <p>
+            <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Beneficios del café</a>
+          </p>
+          <div class="row">
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div class="card card-body">
+                  El consumo moderado de café aumenta la energía y la concentración, promueve la buena digestión y además 
+                  previenen algunas enfermedades.
                 </div>
               </div>
             </div>
-            <!--End Collapse-->
-
           </div>
-          <div class="col-lg-6 order-1 order-lg-2 hero-img">
-            <img src="src/img/coffee-banner.jpg" class="img-fluid animated">
-          </div>
+          <!--End Collapse-->
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 text-center text-lg-start">
+          <img src="src/img/cup-coffee-with-grains.jpg"" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300">
         </div>
       </div>
-    </section>
-    <!-- End Hero -->
+    </div>
+  </section><!-- End Hero Section -->
+
 
 
 </body>
