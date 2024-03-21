@@ -51,7 +51,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #EBF2F2;
+  background-color: #f5ede0;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -10852,8 +10852,7 @@ textarea.form-control-lg {
   font-size: 64px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: var(--color-secondary);
-  font-family: var(--font-primary);
+  color: #400D01;
 }
 
 .hero p {
@@ -10950,8 +10949,7 @@ textarea.form-control-lg {
   margin: 0 0 6px 0;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #384046;
+  color: #400D01;
 }
 
 .states .progress-bar-wrap {
@@ -10962,7 +10960,7 @@ textarea.form-control-lg {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #5faee3;
+  background-color: #A65424;
 }
 
 /*--------------------------------------------------------------
@@ -11024,7 +11022,7 @@ textarea.form-control-lg {
 .details .content h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #73280D;
+  color: #400D01;
 }
 
 .details .content ul {
